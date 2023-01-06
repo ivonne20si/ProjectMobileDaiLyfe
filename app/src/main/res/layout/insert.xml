@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ellipse_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="20dp"
+        android:textColor="@color/fontColor"
+        android:text="Create Your Planner"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:text="Judul"
+        android:layout_marginLeft="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="31dp"
+            android:background="@drawable/form_shape"
+            android:backgroundTint="@color/form"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:text="Tanggal"
+        android:layout_marginLeft="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="31dp"
+            android:background="@drawable/form_shape"
+            android:backgroundTint="@color/form"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="6dp"
+        android:text="Deskripsi"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="31dp"
+            android:background="@drawable/form_shape"
+            android:backgroundTint="@color/form"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:text="Catatan"
+        android:layout_marginLeft="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:background="@drawable/form_shape"
+            android:backgroundTint="@color/form"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:background="@drawable/button_shape"
+        android:width="134dp"
+        android:height="28dp"/>
+    <LinearLayout
+        android:background="@color/nav"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="134dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/ic_baseline_home_24"
+            android:background="@color/nav"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:background="@color/nav"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/ic_baseline_info_24"
+            android:background="@color/nav"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/onBoarding1">
+
+    <fragment
+        android:id="@+id/onBoarding1"
+        android:name="com.example.projectmobiledailyfe.OnBoarding1"
+        android:label="fragment_on_boarding1"
+        tools:layout="@layout/fragment_on_boarding1" >
+        <action
+            android:id="@+id/action_onBoarding1_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/onBoarding1"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_onBoarding1_to_halamanUtama"
+            app:destination="@id/halamanUtama"
+            app:popUpTo="@id/viewPagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.projectmobiledailyfe.vPagerFragment.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_halamanUtama"
+            app:destination="@id/halamanUtama"
+            app:popUpTo="@id/halamanUtama" />
+    </fragment>
+    <fragment
+        android:id="@+id/halamanUtama"
+        android:name="com.example.projectmobiledailyfe.HalamanUtama"
+        android:label="fragment_halaman_utama"
+        tools:layout="@layout/fragment_halaman_utama" />
+</navigation>
