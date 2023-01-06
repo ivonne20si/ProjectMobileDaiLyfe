@@ -13,7 +13,7 @@
         <action
             android:id="@+id/action_onBoarding1_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment"
-            app:popUpTo="@id/onBoarding1"
+            app:popUpTo="@id/halamanUtama"
             app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_onBoarding1_to_halamanUtama"
@@ -28,7 +28,8 @@
         <action
             android:id="@+id/action_viewPagerFragment_to_halamanUtama"
             app:destination="@id/halamanUtama"
-            app:popUpTo="@id/halamanUtama" />
+            app:popUpTo="@id/onBoarding1"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/halamanUtama"

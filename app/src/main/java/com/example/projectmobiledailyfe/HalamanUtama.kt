@@ -18,7 +18,7 @@ class HalamanUtama : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(
-            R.layout.fragment_halaman1,
+            R.layout.fragment_halaman_utama,
             container, false
         )
         binding = FragmentHalamanUtamaBinding.bind(view)

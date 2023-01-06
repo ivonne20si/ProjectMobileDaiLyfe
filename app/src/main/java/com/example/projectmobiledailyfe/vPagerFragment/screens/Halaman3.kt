@@ -33,7 +33,7 @@ class Halaman3 : Fragment() {
 
     private fun onBoardingFinished(){
         val sharedPref = requireActivity()
-            .getSharedPreferences("onBoarding", Context.MODE_PRIVATE)
+            .getSharedPreferences("HalamanUtama", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()
         editor.putBoolean("Selesai", true)
         editor.apply()
