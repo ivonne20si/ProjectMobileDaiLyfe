@@ -13,12 +13,13 @@
         <action
             android:id="@+id/action_onBoarding1_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment"
-            app:popUpTo="@id/halamanUtama"
+            app:popUpTo="@id/halamanLogin"
             app:popUpToInclusive="true" />
         <action
-            android:id="@+id/action_onBoarding1_to_halamanUtama"
-            app:destination="@id/halamanUtama"
-            app:popUpTo="@id/viewPagerFragment" />
+            android:id="@+id/action_onBoarding1_to_halamanLogin"
+            app:destination="@id/halamanLogin"
+            app:popUpTo="@id/onBoarding1"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/viewPagerFragment"
@@ -26,14 +27,14 @@
         android:label="fragment_view_pager"
         tools:layout="@layout/fragment_view_pager" >
         <action
-            android:id="@+id/action_viewPagerFragment_to_halamanUtama"
-            app:destination="@id/halamanUtama"
-            app:popUpTo="@id/onBoarding1"
-            app:popUpToInclusive="true" />
+            android:id="@+id/action_viewPagerFragment_to_halamanLogin"
+            app:destination="@id/halamanLogin"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
-        android:id="@+id/halamanUtama"
-        android:name="com.example.projectmobiledailyfe.HalamanUtama"
-        android:label="fragment_halaman_utama"
-        tools:layout="@layout/fragment_halaman_utama" />
+        android:id="@+id/halamanLogin"
+        android:name="com.example.projectmobiledailyfe.HalamanLogin"
+        android:label="fragment_halaman_login"
+        tools:layout="@layout/fragment_halaman_login" />
 </navigation>

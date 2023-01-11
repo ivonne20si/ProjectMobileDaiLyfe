@@ -14,7 +14,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/txt_utama"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="264dp"
