@@ -19,7 +19,7 @@ class OnBoarding1 : Fragment() {
         Handler().postDelayed({
             if (onBoardingFinished()){
                 findNavController().navigate(
-                    R.id.action_onBoarding1_to_halamanLogin)
+                    R.id.registerActivity)
             } else{
                 findNavController().navigate(
                     R.id.action_onBoarding1_to_viewPagerFragment)

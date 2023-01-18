@@ -13,13 +13,12 @@
         <action
             android:id="@+id/action_onBoarding1_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment"
-            app:popUpTo="@id/halamanLogin"
+            app:popUpTo="@id/registerActivity"
             app:popUpToInclusive="true" />
         <action
-            android:id="@+id/action_onBoarding1_to_halamanLogin"
-            app:destination="@id/halamanLogin"
-            app:popUpTo="@id/onBoarding1"
-            app:popUpToInclusive="false" />
+            android:id="@+id/action_onBoarding1_to_registerActivity"
+            app:destination="@id/registerActivity"
+            app:popUpTo="@id/onBoarding1" />
     </fragment>
     <fragment
         android:id="@+id/viewPagerFragment"
@@ -27,14 +26,12 @@
         android:label="fragment_view_pager"
         tools:layout="@layout/fragment_view_pager" >
         <action
-            android:id="@+id/action_viewPagerFragment_to_halamanLogin"
-            app:destination="@id/halamanLogin"
-            app:popUpTo="@id/viewPagerFragment"
-            app:popUpToInclusive="false" />
+            android:id="@+id/action_viewPagerFragment_to_registerActivity"
+            app:destination="@id/registerActivity"
+            app:popUpTo="@id/viewPagerFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/halamanLogin"
-        android:name="com.example.projectmobiledailyfe.HalamanLogin"
-        android:label="fragment_halaman_login"
-        tools:layout="@layout/fragment_halaman_login" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.projectmobiledailyfe.RegisterActivity"
+        android:label="RegisterActivity" />
 </navigation>

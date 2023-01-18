@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/aboutus.xml" value="0.25" />
+        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/activity_didik.xml" value="0.21240942028985507" />
+        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/activity_hari.xml" value="0.21240942028985507" />
+        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/activity_kerja.xml" value="0.21240942028985507" />
+        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/activity_login.xml" value="0.15489130434782608" />
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/forminput.xml" value="0.25" />
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/fragment_halaman1.xml" value="0.12" />
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/fragment_halaman2.xml" value="0.2109375" />
@@ -20,7 +26,7 @@
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/menu_utama.xml" value="0.1" />
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/onboarding1.xml" value="0.25" />
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/onboarding3.xml" value="0.25" />
-        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/register.xml" value="0.25" />
+        <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/register.xml" value="0.1111111111111111" />
         <entry key="..\:/Kuliah/5/ProjectDaiLyfe/app/src/main/res/layout/update.xml" value="0.25" />
       </map>
     </option>

@@ -24,7 +24,7 @@ class Halaman3 : Fragment() {
         binding = FragmentHalaman3Binding.bind(view)
         binding.txtSelesai.setOnClickListener{
             findNavController().navigate(
-                R.id.action_viewPagerFragment_to_halamanLogin
+                R.id.registerActivity
             )
             onBoardingFinished()
         }
@@ -33,7 +33,7 @@ class Halaman3 : Fragment() {
 
     private fun onBoardingFinished(){
         val sharedPref = requireActivity()
-            .getSharedPreferences("HalamanLogin", Context.MODE_PRIVATE)
+            .getSharedPreferences("LoginActivity", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()
         editor.putBoolean("Selesai", true)
         editor.apply()

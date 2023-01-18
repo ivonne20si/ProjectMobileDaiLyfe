@@ -7,19 +7,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/ic_arrow_back_24"
-        android:background="@color/white"/>
+
 
     <ImageView
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="80dp"
         android:src="@drawable/drive_removebg_preview_1" />
 
     <TextView
@@ -38,70 +32,6 @@
         android:layout_marginTop="35dp"
         android:textSize="12dp"
         android:textColor="@color/black"
-        android:text="Nama Lengkap"
-        android:layout_marginLeft="32dp"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="6dp">
-        <EditText
-            android:layout_width="350dp"
-            android:layout_height="31dp"
-            android:background="@drawable/form_shape"
-            android:backgroundTint="@color/form"
-            android:layout_gravity="center"/>
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:textSize="12dp"
-        android:textColor="@color/black"
-        android:text="Tanggal Lahir"
-        android:layout_marginLeft="32dp"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="6dp">
-        <EditText
-            android:layout_width="350dp"
-            android:layout_height="31dp"
-            android:background="@drawable/form_shape"
-            android:backgroundTint="@color/form"
-            android:layout_gravity="center"/>
-    </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:textSize="12dp"
-        android:textColor="@color/black"
-        android:text="No Handphone"
-        android:layout_marginLeft="32dp"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="6dp">
-        <EditText
-            android:layout_width="350dp"
-            android:layout_height="31dp"
-            android:background="@drawable/form_shape"
-            android:backgroundTint="@color/form"
-            android:layout_gravity="center"/>
-    </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:textSize="12dp"
-        android:textColor="@color/black"
         android:text="Email"
         android:layout_marginLeft="32dp"/>
 
@@ -111,6 +41,7 @@
         android:orientation="vertical"
         android:padding="6dp">
         <EditText
+            android:id="@+id/registeremail"
             android:layout_width="350dp"
             android:layout_height="31dp"
             android:background="@drawable/form_shape"
@@ -132,14 +63,18 @@
         android:orientation="vertical"
         android:padding="6dp">
         <EditText
+            android:id="@+id/registerpassword"
             android:layout_width="350dp"
             android:layout_height="31dp"
             android:background="@drawable/form_shape"
             android:backgroundTint="@color/form"
+            android:hint="Password"
+            android:inputType="textPassword"
             android:layout_gravity="center"/>
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnRegister"
         android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -148,5 +83,32 @@
         android:background="@drawable/button_shape"
         android:width="134dp"
         android:height="28dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="               Sudah Punya Akun?  "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnArahLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:text="Login"
+            android:textColor="@color/primaryColor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 </LinearLayout>
